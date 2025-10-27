@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --bg-color: rgb(89, 11, 89);
+  --text-color: rgb(228, 228, 228);
+  --title-color: rgb(252, 165, 94);
+  --alt-text-colot: black;
+  --button-color: rgb(252, 165, 94);
+  --selected-color: rgb(90, 156, 90);
+  /* outline: 1px solid red; */
+  color: rgb(206, 206, 206);
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Zen Tokyo Zoo";
+  src: url("../Fonts/ZenTokyoZoo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("../Fonts/VT323-Regular.ttf");
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: var(--bg-color);
+}
+
+h2 {
+  font-family: "Zen Tokyo Zoo", system-ui;
+  color: var(--title-color);
+}
+
+.hidden {
+  display: none;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#language-selector img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#profile-photo {
+  border-radius: 100%;
+  box-shadow: 1px 1px 15px rgb(147, 31, 158);
+  max-width: 80%;
+}
+
+.bio-buttons {
+  margin-top: 2rem;
+}
+
+.bio-buttons > a {
+  min-width: 300px;
+  min-height: 50px;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 5px;
+}
+
+.bio-buttons > a:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 3px white;
+}
+
+@media (width>768px) {
+  .mobile-hidden {
+    display: block;
+  }
+
+  header {
+    position: fixed;
+    width: 25vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* MAIN */
+
+main {
+  padding: 0 3vw 0 3vw;
+}
+
+main h1 {
+  font-family: "Zen Tokyo Zoo", system-ui;
+  color: var(--title-color);
+  font-size: 3rem;
+}
+
+.section {
+  margin: 100px 0 10px 0;
+  border-radius: 10px;
+}
+
+.school {
+  margin: 5px 0 5px 0;
+}
+
+.job {
+  margin: 5px 0 5px 0;
+}
+
+.school-name {
+  color: rgb(252, 252, 122);
+  font-family: "Zen Tokyo Zoo", system-ui;
+  margin-bottom: 3px;
+  font-size: 2rem;
+  text-indent: 5rem;
+}
+
+.company {
+  color: rgb(192, 199, 255);
+  font-family: "Zen Tokyo Zoo", system-ui;
+  margin-bottom: 3px;
+  font-size: 2rem;
+  text-indent: 5rem;
+}
+
+@media (width>768px) {
+  main {
+    width: 75vw;
+    position: relative;
+    left: 25vw;
+  }
+}
+
+/* SKILLS */
+#skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  height: 2rem;
+  padding: 0.5rem;
+  width: auto;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin: 0 1rem 0.5rem 1rem;
+  background-color: var(--button-color);
+  color: black;
+}
+
+.skill > img {
+  height: 90%;
+  width: auto;
+}
+
+.selected {
+  background-color: var(--selected-color);
+}
+
+/* PROJECT-CARDS */
+
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card {
+  width: 90vw;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+@media (width > 768px) {
+  .project-card {
+    width: 300px;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 3rem;
+  }
+
+  #projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 4px white;
+}
+
+.project-preview {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+}
+
+.project-title {
+  font-family: "Zen Tokyo Zoo", system-ui;
+  font-size: 1.2rem;
+}
+
+.project-actions > a {
+  display: inline;
+}
+
+.project-actions img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.project-actions img:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 10px;
+}
+
+.project-technologies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-technologies img {
+  height: 90%;
+  width: auto;
+}
+
+/* CONTACT */
+#contact h2 {
+  font-family: "Zen Tokyo Zoo", system-ui;
+  color: var(--title-color);
+}
