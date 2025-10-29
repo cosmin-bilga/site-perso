@@ -45,9 +45,25 @@
             <span class="skill unselected">PHP<img src="Assets/Icons/php.svg"></span>
             <span class="skill unselected">Python<img src="Assets/Icons/python.svg"></span>
             <span class="skill unselected">C<img src="Assets/Icons/C.svg"></span>
+            <span class="skill unselected">Tailwind<img src="Assets/Icons/tailwind.svg"></span>
         </div>
     </div>
     <div id="projects" class="section">
+        <div class="project-card">
+            <img class="project-preview" src="Assets/Images/memory.jpg">
+            <p data-i18n="projecttitle4" class="project-title"></p>
+            <p data-i18n="projectdesc4" class="project-description"></p>
+            <div class="project-technologies">
+                <span class="skill unselected">Tailwind<img src="Assets/Icons/tailwind.svg"></span>
+                <span class="skill unselected">HTML5<img src="Assets/Icons/html5.svg"></span>
+                <span class="skill unselected">Javascript<img src="Assets/Icons/javascript.svg"></span>
+            </div>
+            <div class="project-actions">
+                <a href="Projets LaPlateforme/oclock/" target="Projets LaPlateforme/oclock/"><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="https://github.com/cosmin-bilga/oclock" target="https://github.com/cosmin-bilga/oclock"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/oclock"></img></a>
+            </div>
+        </div>
+
         <div class="project-card">
             <img class="project-preview" src="Assets/Images/memory.jpg">
             <p data-i18n="projecttitle1" class="project-title"></p>
