@@ -59,7 +59,7 @@
                 <span class="skill unselected">SQL<img src="Assets/Icons/mysql.svg"></span>
             </div>
             <div class="project-actions">
-                <a href="" target=""><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="Projets LaPlateforme/memory/" target="Projets LaPlateforme/memory/"><img src="Assets/Icons/website.svg" target=""></img></a>
                 <a href="https://github.com/cosmin-bilga/memory" target="https://github.com/cosmin-bilga/memory"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/memory"></img></a>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <span class="skill unselected">SQL<img src="Assets/Icons/mysql.svg"></span>
             </div>
             <div class="project-actions">
-                <a href="" target=""><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="Projets LaPlateforme/mediatheque_paris_grp4/public/" target="Projets LaPlateforme/mediatheque_paris_grp4/public/"><img src="Assets/Icons/website.svg" target=""></img></a>
                 <a href="https://github.com/cosmin-bilga/mediatheque_paris_grp4" target="https://github.com/cosmin-bilga/mediatheque_paris_grp4"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/memory"></img></a>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 <span class="skill unselected">SQL<img src="Assets/Icons/mysql.svg"></span>
             </div>
             <div class="project-actions">
-                <a href="" target=""><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="Projets LaPlateforme/livre-or/index.php" target="Projets LaPlateforme/livre-or/index.php"><img src="Assets/Icons/website.svg" target=""></img></a>
                 <a href="https://github.com/cosmin-bilga/livre-or" target="https://github.com/cosmin-bilga/livre-or"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/memory" alt="Github Page"></img></a>
             </div>
         </div>
