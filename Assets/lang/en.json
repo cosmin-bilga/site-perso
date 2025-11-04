@@ -30,6 +30,8 @@
     "projectdesc3" : "Small project for leaving comments on a page.",
     "projecttitle4" : "O'Clock",
     "projectdesc4" : "Small project that shows current time, has a timer, stopwatch and alarm functions.",
+     "projecttitle5" : "Autocompletion",
+    "projectdesc5" : "Small project that implements autocompletion using javascript fetch.",
     "biolink" : "Bio",
     "skillslink" : "Skills",
     "projectslink" : "Projects",
