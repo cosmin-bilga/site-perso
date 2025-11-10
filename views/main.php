@@ -52,14 +52,14 @@
     </div>
     <div id="projects" class="section">
         <div class="project-card">
-            <img class="project-preview" src="Assets/Images/memory_react.jpg">
+            <img class="project-preview" src="Assets/Images/wordpress.jpg">
             <p data-i18n="projecttitle7" class="project-title"></p>
             <p data-i18n="projectdesc7" class="project-description"></p>
             <div class="project-technologies">
-                <span class="skill unselected">Wordpress<img src="Assets/Icons/wordpress.svg"></span>n>
+                <span class="skill unselected">Wordpress<img src="Assets/Icons/wordpress.svg"></span>
             </div>
             <div class="project-actions">
-                <a href="Projets LaPlateforme/blog-cosmin/" target="Projets LaPlateforme/blog-cosmin/"><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="blog-cosmin/" target="blog-cosmin/"><img src="Assets/Icons/website.svg" target=""></img></a>
             </div>
         </div>
 
