@@ -32,6 +32,8 @@
     "projectdesc4" : "Petit projet qui montre l'heure courante, a un minuteur, un chronometre et une alarme.",
     "projecttitle5" : "Autocompletion",
     "projectdesc5" : "Petit projet ou j'ai implementé un systeme d'autocompletion utilisant javascript et fetch.",
+    "projecttitle6" : "Memory (React)",
+    "projectdesc6" : "Version en React du projet Memory.",
     "biolink" : "Bio",
     "skillslink" : "Competences",
     "projectslink" : "Projets",

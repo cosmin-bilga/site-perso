@@ -32,6 +32,8 @@
     "projectdesc4" : "Small project that shows current time, has a timer, stopwatch and alarm functions.",
      "projecttitle5" : "Autocompletion",
     "projectdesc5" : "Small project that implements autocompletion using javascript fetch.",
+    "projecttitle6" : "Memory (React)",
+    "projectdesc6" : "React version of the Memory game.",
     "biolink" : "Bio",
     "skillslink" : "Skills",
     "projectslink" : "Projects",

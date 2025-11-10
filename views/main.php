@@ -46,9 +46,25 @@
             <span class="skill unselected">Python<img src="Assets/Icons/python.svg"></span>
             <span class="skill unselected">C<img src="Assets/Icons/C.svg"></span>
             <span class="skill unselected">Tailwind<img src="Assets/Icons/tailwind.svg"></span>
+            <span class="skill unselected">React<img src="Assets/Icons/react.svg"></span>
         </div>
     </div>
     <div id="projects" class="section">
+        <div class="project-card">
+            <img class="project-preview" src="Assets/Images/memory_react.jpg">
+            <p data-i18n="projecttitle6" class="project-title"></p>
+            <p data-i18n="projectdesc6" class="project-description"></p>
+            <div class="project-technologies">
+                <span class="skill unselected">CSS3<img src="Assets/Icons/css-3.svg"></span>
+                <span class="skill unselected">HTML5<img src="Assets/Icons/html5.svg"></span>
+                <span class="skill unselected">React<img src="Assets/Icons/react.svg"></span>
+            </div>
+            <div class="project-actions">
+                <a href="Projets LaPlateforme/memory_react/" target="Projets LaPlateforme/memory_react/"><img src="Assets/Icons/website.svg" target=""></img></a>
+                <a href="https://github.com/cosmin-bilga/memory_react/" target="https://github.com/cosmin-bilga/memory_react/"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/memory_react/"></img></a>
+            </div>
+        </div>
+
         <div class="project-card">
             <img class="project-preview" src="Assets/Images/autocompletion.jpg">
             <p data-i18n="projecttitle5" class="project-title"></p>
@@ -59,12 +75,15 @@
                 <span class="skill unselected">Javascript<img src="Assets/Icons/javascript.svg"></span>
                 <span class="skill unselected">SQL<img src="Assets/Icons/mysql.svg"></span>
                 <span class="skill unselected">PHP<img src="Assets/Icons/php.svg"></span>
+
             </div>
             <div class="project-actions">
                 <a href="Projets LaPlateforme/autocompletion/" target="Projets LaPlateforme/autocompletion/"><img src="Assets/Icons/website.svg" target=""></img></a>
                 <a href="https://github.com/cosmin-bilga/autocompletion" target="https://github.com/cosmin-bilga/autocompletion"><img src="Assets/Icons/github.svg" href="https://github.com/cosmin-bilga/autocompletion"></img></a>
             </div>
         </div>
+
+
 
         <div class="project-card">
             <img class="project-preview" src="Assets/Images/oclock.jpg">
